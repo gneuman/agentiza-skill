@@ -1,8 +1,10 @@
 # agentiza
 
-**Convierte cualquier SOP, Loom o proceso en un skill de Claude Code modular y portable.**
+**Convierte cualquier SOP, Loom o proceso en un [skill de Claude Code](https://gabrielneuman.com/agentiza) modular y portable.**
 
 Un skill gratis y de código abierto por [Gabriel Neuman](https://gabrielneuman.com) · GNB Labs.
+
+📖 **[Cómo funciona, paso a paso → gabrielneuman.com/agentiza](https://gabrielneuman.com/agentiza)**
 
 > El skill opera **en español (México)**. La estructura que genera es portable a cualquier harness (Claude Code, Codex, Cursor, Gemini CLI). Si tu equipo trabaja en español y quiere convertir procesos en agentes, esto es para ti.
 >
@@ -60,6 +62,8 @@ O simplemente dile a tu agente:
 ## Cómo mejora con el tiempo
 
 Este repo **es** el sistema de mejora continua. Yo afino `agentiza` con cada proyecto real; si lo instalaste vía `/plugin marketplace`, recibes esas mejoras sin re-descargar nada. Es el mismo patrón de MAA (Medir, Analizar, Actuar) que el skill te enseña a aplicar sobre tus propios skills.
+
+👉 **La explicación completa, con los 8 pasos y las 7 reglas duras, vive en la landing: [gabrielneuman.com/agentiza](https://gabrielneuman.com/agentiza).**
 
 ## Qué trae de bueno (vs. escribir skills a mano)
 
