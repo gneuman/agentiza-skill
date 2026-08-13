@@ -1,0 +1,10 @@
+{
+  "name": "agentiza",
+  "description": "Convierte cualquier SOP, Loom o proceso en un Claude Code skill modular y portable.",
+  "version": "2026.8.13",
+  "author": {
+    "name": "Gabriel Neuman",
+    "email": "soy@gabrielneuman.com"
+  },
+  "homepage": "https://gabrielneuman.com/agentiza"
+}

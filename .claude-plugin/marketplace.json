@@ -1,0 +1,32 @@
+{
+  "name": "agentiza",
+  "owner": {
+    "name": "Gabriel Neuman",
+    "email": "soy@gabrielneuman.com"
+  },
+  "metadata": {
+    "description": "agentiza — convierte cualquier SOP, Loom o proceso en un Claude Code skill modular y portable. Por Gabriel Neuman (gabrielneuman.com).",
+    "version": "2026.8.13",
+    "repository": "https://github.com/gneuman/agentiza-skill"
+  },
+  "plugins": [
+    {
+      "name": "agentiza",
+      "description": "Convierte un SOP, documento de proceso, transcripción de Loom o descripción de cómo haces algo a mano en un skill modular y bien estructurado (SKILL.md como índice + steps/ + references/). Recomienda y confirma, detecta huecos, y enseña el bucle de mejora.",
+      "source": "./",
+      "author": {
+        "name": "Gabriel Neuman",
+        "email": "soy@gabrielneuman.com"
+      },
+      "homepage": "https://gabrielneuman.com/agentiza",
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "sop",
+        "agent-skills",
+        "productivity",
+        "espanol"
+      ]
+    }
+  ]
+}
