@@ -3,10 +3,11 @@ name: agentiza
 description: >
   Convierte un SOP, documento de proceso, transcripción de Loom, o descripción
   de cómo haces algo a mano en un Claude Code skill modular y bien estructurado
-  (SKILL.md como índice + steps/ + references/ + scripts/). Hace 3 preguntas
-  guiadas, detecta huecos en el SOP, y entrega los archivos listos para
-  pegar en ~/.claude/skills/<nombre>/. También sirve para MODERNIZAR skills
-  monolíticos existentes que ya pasaron las 200 líneas. Use when:
+  (SKILL.md como índice + steps/ + references/ + scripts/). Recomienda y
+  confirma en vez de un cuestionario en frío, detecta huecos en el SOP, valida
+  que el skill dispare solo, y enseña el bucle de mejora. El core es markdown
+  puro: portable a Codex, Cursor y Gemini, no solo Claude Code. También sirve
+  para MODERNIZAR skills monolíticos que ya pasaron las 200 líneas. Use when:
   "agentiza", "agentizar", "convertir SOP en agente", "modernizar skill",
   "crear skill", "modularizar skill", "skill nuevo", "/agentiza".
 ---
