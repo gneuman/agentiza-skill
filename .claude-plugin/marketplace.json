@@ -5,14 +5,14 @@
     "email": "soy@gabrielneuman.com"
   },
   "metadata": {
-    "description": "agentiza — convierte cualquier SOP, Loom o proceso en un Claude Code skill modular y portable. Por Gabriel Neuman (gabrielneuman.com).",
-    "version": "2026.8.13",
+    "description": "agentiza — skills de Claude Code por Gabriel Neuman (gabrielneuman.com). Incluye /agentiza (convierte SOPs en skills) y /oferta (audita propuestas comerciales).",
+    "version": "2026.9.17",
     "repository": "https://github.com/gneuman/agentiza-skill"
   },
   "plugins": [
     {
       "name": "agentiza",
-      "description": "Convierte un SOP, documento de proceso, transcripción de Loom o descripción de cómo haces algo a mano en un skill modular y bien estructurado (SKILL.md como índice + steps/ + references/). Recomienda y confirma, detecta huecos, y enseña el bucle de mejora.",
+      "description": "Dos skills en espanol: /agentiza convierte un SOP, Loom o proceso en un skill modular (SKILL.md + steps/ + references/). /oferta audita una propuesta comercial contra las cinco palancas de oferta y dice por que no cierra.",
       "source": "./",
       "author": {
         "name": "Gabriel Neuman",
@@ -25,7 +25,9 @@
         "sop",
         "agent-skills",
         "productivity",
-        "espanol"
+        "espanol",
+        "ventas",
+        "propuestas"
       ]
     }
   ]
