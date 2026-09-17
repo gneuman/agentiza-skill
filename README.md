@@ -1,8 +1,11 @@
 # agentiza
 
-**Convierte cualquier SOP, Loom o proceso en un [skill de Claude Code](https://gabrielneuman.com/agentiza) modular y portable.**
+**Skills de Claude Code en español, gratis y de código abierto.** Por [Gabriel Neuman](https://gabrielneuman.com) · GNB Labs.
 
-Un skill gratis y de código abierto por [Gabriel Neuman](https://gabrielneuman.com) · GNB Labs.
+| Skill | Qué hace |
+|---|---|
+| **`/agentiza`** | Convierte cualquier SOP, Loom o proceso en un [skill modular y portable](https://gabrielneuman.com/agentiza) |
+| **`/oferta`** | Audita una propuesta comercial y te dice **por qué no cierra** — con el cambio concreto, no consejos genéricos |
 
 📖 **[Cómo funciona, paso a paso → gabrielneuman.com/agentiza](https://gabrielneuman.com/agentiza)**
 
@@ -28,6 +31,20 @@ En vez de un cuestionario en frío, **recomienda y confirma**: lee tu proceso, p
 
 También **moderniza skills viejos** que crecieron sin estructura y pasaron las 200 líneas.
 
+## `/oferta` — por qué no cierra tu propuesta
+
+Casi siempre el problema no es el producto: es el **empaque**. Le pasas una propuesta —y, si ya la enviaste, lo que contestó el cliente— y te devuelve un semáforo por cada una de las cinco palancas que deciden una oferta:
+
+```
+Promesa · Bonos · Garantía · Forma de pago · Urgencia y escasez
+```
+
+Más la parte que casi nadie hace: **traducir lo que el cliente dijo**. "Está caro" casi nunca es el precio. "Lo tengo que ver con mi socio" es un bono que falta. La tabla completa está en el skill.
+
+Incluye un caso real documentado —anonimizado— de una propuesta que pasó de cuatro palancas en rojo a cerrada, **con los tres errores que costó acertar**.
+
+📖 **[El método completo, explicado → gabrielneuman.com/blog/por-que-no-cierran-tus-propuestas](https://gabrielneuman.com/blog/por-que-no-cierran-tus-propuestas)**
+
 ## Instalar (Claude Code, con auto-update)
 
 La forma recomendada. Recibes las mejoras automáticamente cuando actualizo el repo:
@@ -40,10 +57,9 @@ La forma recomendada. Recibes las mejoras automáticamente cuando actualizo el r
 Luego, en cualquier proyecto:
 
 ```
-/agentiza
+/agentiza     ← pega tu SOP, Loom, notas, o un SKILL.md monolítico que quieras modernizar
+/oferta       ← pega tu propuesta (y la respuesta del cliente, si ya la enviaste)
 ```
-
-Y pega tu SOP, Loom, notas, o el `SKILL.md` monolítico que quieres modernizar.
 
 ## Instalar (manual / otros agentes)
 
